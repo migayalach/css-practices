@@ -149,3 +149,14 @@ ul {
     width: 95%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .picture {
+    border-radius: 0px;
+    width: 100%;
+    height: 350px;
+    position: -ms-page;
+    margin-bottom: -45px;
+  }
+
+}
