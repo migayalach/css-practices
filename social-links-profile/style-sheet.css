@@ -1,56 +1,133 @@
 body {
   margin: 0;
+  font-family: "Roboto", "Mukta";
 }
 
+/* CONTENEDOR PRINCIPAL */
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #202020;
+  background: #000;
   width: 100vw;
   height: 100vh;
 }
 
+/* CONTENEDOR CARD */
 .container-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  background: yellow;
+  background: #1b1b1b;
   width: 280px;
-  height: 410px;
+  height: 480px;
   padding: 15px;
   border-radius: 10px;
 }
 
+/* FOTOGRAFIA DE PERFIL */
 .photo {
   border-radius: 50%;
-  width: 90px;
+  width: 100px;
+  margin-top: 10px;
 }
 
+/* LETRAS */
 .container-word {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  line-height: 2;
+  line-height: 1.2;
+  margin-bottom: 13px;
 }
 
 .text {
   margin: 0;
 }
 
+.name {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.address {
+  color: #ccff00;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.sub-text {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* BOTONES */
 .container-button {
   display: flex;
   flex-direction: column;
 }
 
 button {
-  border-radius: 4px;
-  margin-bottom: 10px;
+  border-radius: 7px;
+  margin-bottom: 16px;
   padding: 5px;
-  width: 25vw;
-  height: 3.5vw;
+  width: 18vw;
+  height: 2.5vw;
+  cursor: pointer;
+  background-color: #2e2d2d;
+  color: #fff;
+  outline: none;
+  border: none;
 }
+
+/* RESPONSIVE */
+/* Estilos para dispositivos pequeños (teléfonos) */
+@media (min-width: 360px) and (max-width: 915px) {
+  /* LETRAS */
+  .name {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 13px;
+  }
+
+  .address {
+    color: #ccff00;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  .sub-text {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+
+  /* BOTONES */
+  button {
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 5px;
+    width: 65vw;
+    height: 8.5vw;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+/* Estilos para dispositivos medianos (tabletas) */
+/* @media (min-width: 601px) and (max-width: 1024px) {
+} */
+
+/* Estilos para dispositivos grandes (escritorio) */
+/* @media (min-width: 1025px) {
+} */
