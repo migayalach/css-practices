@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #202020;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background: yellow;
+  width: 280px;
+  height: 410px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 90px;
+}
+
+.container-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}
+
+.text {
+  margin: 0;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 25vw;
+  height: 3.5vw;
+}
