@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", "Mukta";
+  background-color: #f3c05b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container-card {
+  padding: 23px;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 28vw;
+  /* border: 1px solid #000000; */
+  box-shadow:  4px 4px 6px rgba(0, 0, 0, 0.1), 8px 8px 12px rgba(0, 0, 0, 0.9); 
+}
+
+.image-photo-head {
+  height: 18.5vw;
+  border-radius: 15px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 3vw;
+}
+
+.image-container {
+  text-align: center;
+}
+
+header {
+  margin: 15px 0;
+}
+
+.text-title {
+  font-size: 17px;
+  font-weight: 550;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: -2px 0;
+}
+
+.description-text {
+  line-height: 1.8;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+footer > span {
+  font-weight: 700;
+  margin-left: 15px;
+}

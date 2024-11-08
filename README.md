@@ -6,4 +6,8 @@ https://www.frontendmentor.io/challenges?difficulty=1&languages=CSS%2CJS&type=fr
 My first challenge
 https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
-<!-- https://www.facebook.com/share/v/gfw7V7bt4Fxfh81z/ -->
+My second challenge
+https://www.facebook.com/share/v/gfw7V7bt4Fxfh81z/
+
+My three challenge
+https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
